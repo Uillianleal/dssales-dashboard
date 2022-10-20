@@ -7,8 +7,9 @@
   --secondery-color: #1B2531;
   --light-color:  #E9E9E9;
   --grey-light-50-color: #9AAABE;
-  --grey-light-100-color: #384459;
-
+  --grey-light-100-color: #949494;
+  --grey-light-150-color: #384459;
+  --green-color: #08B976;
 }
 
 body {
@@ -25,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 .base-card{
   background: var(--primary-color);
   border-radius: 10px;
+}
+
+.sales-by-date-chart {
+  width: 890px;
 }
 
 
